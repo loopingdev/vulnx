@@ -264,7 +264,7 @@ $ ./install.sh
 -------------------------------------
 
 ##### example command with options : settimeout=3 , cms-gathering = all , -d subdomains-gathering , run --exploits
-`vulnx -u http://example.com --timeout 3 -c all -d -w --exploit` 
+`vulnx -u http://example.com --cms  -d -w --exploit` 
 
 ##### example command for searching dorks : -D or --dorks , -l --list-dorks 
 `vulnx --list-dorks`
